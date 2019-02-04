@@ -1,6 +1,9 @@
 # Ubuntu 18.04
 FROM ubuntu:bionic-20190122
 
+# Make the shell environment support nice stuff
+ENV TERM=xterm-256color
+
 # Install system depedencies (explicitly versioned)
 RUN \
     apt-get update -y && DEBIAN_FRONTEND=noninteractive apt-get install -yq \

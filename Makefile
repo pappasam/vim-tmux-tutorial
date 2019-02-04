@@ -8,7 +8,7 @@ run: build  ## Runs/ssh's into local container, deletes container on exit
 		--volume $(PWD)/bashrc:/home/student/.bashrc \
 		nyc-vim-learn-tmux:main /bin/bash
 
-build:  ## Build the Docker image
+build: Dockerfile  ## Build the Docker image
 	docker build --tag nyc-vim-learn-tmux:main .
 	@echo "Placeholder for Docker build step" > $@
 
