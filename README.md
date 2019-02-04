@@ -1,6 +1,6 @@
-# Vim / Tmux Tutorial
+# NYC Vim Meetup: Tmux Tutorial
 
-This is the source code for my [Vim](https://www.vim.org/about.php) / [Tmux](http://man.openbsd.org/OpenBSD-current/man1/tmux.1) tutorial.
+Source code for my [Vim](https://www.vim.org/about.php) / [Tmux](http://man.openbsd.org/OpenBSD-current/man1/tmux.1) tutorial. This tutorial will be shared at [The New York City Vim Meetup](https://www.meetup.com/The-New-York-Vim-Meetup/).
 
 ## Dependencies
 
