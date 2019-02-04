@@ -8,13 +8,14 @@ run: build  ## Runs/ssh's into local container, deletes container on exit
 		-v $(PWD)/bashrc:/home/student/.bashrc\
 		nyc-vim-learn-tmux:main /bin/bash
 
-.PHONY: build
 build:  ## Build the Docker image
 	docker build -t nyc-vim-learn-tmux:main .
+	@echo "Placeholder for Docker build step" > $@
 
 .PHONY: clean
-clean:  ## Remove the Docker image
+clean: build  ## Remove the Docker image
 	docker rmi nyc-vim-learn-tmux:main
+	@rm $^
 
 .PHONY: help
 help:  ## Prints this help menu
