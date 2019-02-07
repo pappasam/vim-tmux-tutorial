@@ -1,0 +1,102 @@
+[[package]]
+category = "main"
+description = "An unobtrusive argparse wrapper with natural syntax"
+name = "argh"
+optional = false
+python-versions = "*"
+version = "0.26.2"
+
+[[package]]
+category = "main"
+description = "Docutils -- Python Documentation Utilities"
+name = "docutils"
+optional = false
+python-versions = "*"
+version = "0.14"
+
+[[package]]
+category = "main"
+description = "Makes impress.js presentations from reStructuredText"
+name = "hovercraft"
+optional = false
+python-versions = "*"
+version = "2.6"
+
+[package.dependencies]
+docutils = ">=0.9"
+lxml = ">=3.1.0"
+pygments = "*"
+setuptools = "*"
+"svg.path" = "*"
+watchdog = "*"
+
+[[package]]
+category = "main"
+description = "Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API."
+name = "lxml"
+optional = false
+python-versions = "*"
+version = "4.3.0"
+
+[[package]]
+category = "main"
+description = "File system general utilities"
+name = "pathtools"
+optional = false
+python-versions = "*"
+version = "0.1.2"
+
+[[package]]
+category = "main"
+description = "Pygments is a syntax highlighting package written in Python."
+name = "pygments"
+optional = false
+python-versions = "*"
+version = "2.3.1"
+
+[[package]]
+category = "main"
+description = "YAML parser and emitter for Python"
+name = "pyyaml"
+optional = false
+python-versions = "*"
+version = "3.13"
+
+[[package]]
+category = "main"
+description = "SVG path objects and parser"
+name = "svg.path"
+optional = false
+python-versions = "*"
+version = "3.0"
+
+[package.dependencies]
+setuptools = "*"
+
+[[package]]
+category = "main"
+description = "Filesystem events monitoring"
+name = "watchdog"
+optional = false
+python-versions = "*"
+version = "0.9.0"
+
+[package.dependencies]
+PyYAML = ">=3.10"
+argh = ">=0.24.1"
+pathtools = ">=0.1.1"
+
+[metadata]
+content-hash = "2633aa2b39031b9bf3e9d41cd3a01b491c481b00c9bc4feaf3740b2db1e9608e"
+python-versions = "^3.7"
+
+[metadata.hashes]
+argh = ["a9b3aaa1904eeb78e32394cd46c6f37ac0fb4af6dc488daa58971bdc7d7fcaf3", "e9535b8c84dc9571a48999094fda7f33e63c3f1b74f3e5f3ac0105a58405bb65"]
+docutils = ["02aec4bd92ab067f6ff27a38a38a41173bf01bed8f89157768c1573f53e474a6", "51e64ef2ebfb29cae1faa133b3710143496eca21c530f3f71424d77687764274", "7a4bd47eaf6596e1295ecb11361139febe29b084a87bf005bf899f9a42edc3c6"]
+hovercraft = ["e44e29adbb1f7491efe22632e7a0ebf913282b02c5e19efdc33871fc10152acf"]
+lxml = ["0dd6589fa75d369ba06d2b5f38dae107f76ea127f212f6a7bee134f6df2d1d21", "1afbac344aa68c29e81ab56c1a9411c3663157b5aee5065b7fa030b398d4f7e0", "1baad9d073692421ad5dbbd81430aba6c7f5fdc347f03537ae046ddf2c9b2297", "1d8736421a2358becd3edf20260e41a06a0bf08a560480d3a5734a6bcbacf591", "1e1d9bddc5afaddf0de76246d3f2152f961697ad7439c559f179002682c45801", "1f179dc8b2643715f020f4d119d5529b02cd794c1c8f305868b73b8674d2a03f", "241fb7bdf97cb1df1edfa8f0bcdfd80525d4023dac4523a241907c8b2f44e541", "2f9765ee5acd3dbdcdc0d0c79309e01f7c16bc8d39b49250bf88de7b46daaf58", "312e1e1b1c3ce0c67e0b8105317323e12807955e8186872affb667dbd67971f6", "3273db1a8055ca70257fd3691c6d2c216544e1a70b673543e15cc077d8e9c730", "34dfaa8c02891f9a246b17a732ca3e99c5e42802416628e740a5d1cb2f50ff49", "3aa3f5288af349a0f3a96448ebf2e57e17332d99f4f30b02093b7948bd9f94cc", "51102e160b9d83c1cc435162d90b8e3c8c93b28d18d87b60c56522d332d26879", "56115fc2e2a4140e8994eb9585119a1ae9223b506826089a3ba753a62bd194a6", "69d83de14dbe8fe51dccfd36f88bf0b40f5debeac763edf9f8325180190eba6e", "99fdce94aeaa3ccbdfcb1e23b34273605c5853aa92ec23d84c84765178662c6c", "a7c0cd5b8a20f3093ee4a67374ccb3b8a126743b15a4d759e2a1bf098faac2b2", "abe12886554634ed95416a46701a917784cb2b4c77bfacac6916681d49bbf83d", "b4f67b5183bd5f9bafaeb76ad119e977ba570d2b0e61202f534ac9b5c33b4485", "bdd7c1658475cc1b867b36d5c4ed4bc316be8d3368abe03d348ba906a1f83b0e", "c6f24149a19f611a415a51b9bc5f17b6c2f698e0d6b41ffb3fa9f24d35d05d73", "d1e111b3ab98613115a208c1017f266478b0ab224a67bc8eac670fa0bad7d488", "d6520aa965773bbab6cb7a791d5895b00d02cf9adc93ac2bf4edb9ac1a6addc5", "dd185cde2ccad7b649593b0cda72021bc8a91667417001dbaf24cd746ecb7c11", "de2e5b0828a9d285f909b5d2e9d43f1cf6cf21fe65bc7660bdaa1780c7b58298", "f726444b8e909c4f41b4fde416e1071cf28fa84634bfb4befdf400933b6463af"]
+pathtools = ["7c35c5421a39bb82e58018febd90e3b6e5db34c5443aaaf742b3f33d4655f1c0"]
+pygments = ["5ffada19f6203563680669ee7f53b64dabbeb100eb51b61996085e99c03b284a", "e8218dd399a61674745138520d0d4cf2621d7e032439341bc3f647bff125818d"]
+pyyaml = ["3d7da3009c0f3e783b2c873687652d83b1bbfd5c88e9813fb7e5b03c0dd3108b", "3ef3092145e9b70e3ddd2c7ad59bdd0252a94dfe3949721633e41344de00a6bf", "40c71b8e076d0550b2e6380bada1f1cd1017b882f7e16f09a65be98e017f211a", "558dd60b890ba8fd982e05941927a3911dc409a63dcb8b634feaa0cda69330d3", "a7c28b45d9f99102fa092bb213aa12e0aaf9a6a1f5e395d36166639c1f96c3a1", "aa7dd4a6a427aed7df6fb7f08a580d68d9b118d90310374716ae90b710280af1", "bc558586e6045763782014934bfaf39d48b8ae85a2713117d16c39864085c613", "d46d7982b62e0729ad0175a9bc7e10a566fc07b224d2c79fafb5e032727eaa04", "d5eef459e30b09f5a098b9cea68bebfeb268697f78d647bd255a085371ac7f3f", "e01d3203230e1786cd91ccfdc8f8454c8069c91bee3962ad93b87a4b2860f537", "e170a9e6fcfd19021dd29845af83bb79236068bf5fd4df3327c1be18182b2531"]
+"svg.path" = ["7b568f90f67fd25413c8da9f8bc9f9f8ab089425c20fa03330e97e77d13880ee", "a4ef1da33f6dffc57f17cef1cbc674991fd2fd9d3c472e36f9c1e34ee5d63f01"]
+watchdog = ["965f658d0732de3188211932aeb0bb457587f04f63ab4c1e33eab878e9de961d"]
