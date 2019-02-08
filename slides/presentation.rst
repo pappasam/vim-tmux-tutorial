@@ -1,7 +1,7 @@
 :data-transition-duration: 500
 :skip-help: true
 :css: style.css
-:title: NYC Vim: Tmux
+:title: NYC Vim - Tmux
 
 ----
 
@@ -100,6 +100,10 @@ Terminal Multiplexer
 **Multiplex**: Manifold; multiple (Webster 1913)
 
 ----
+
+
+----
+
 
 Any questions?
 ==============

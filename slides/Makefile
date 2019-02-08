@@ -1,4 +1,4 @@
-PLANT_OUTDIR = diagrams
+PLANT_OUTDIR = instance
 PLANT_SRCS = $(wildcard *.plantuml)
 PLANT_IMGS = $(patsubst %.plantuml,$(PLANT_OUTDIR)/%.svg,$(PLANT_SRCS))
 

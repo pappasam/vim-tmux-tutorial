@@ -1,0 +1,30 @@
+@startuml
+
+top to bottom direction
+
+package "Tmux Server" {
+  node "Session 1: Writing" {
+    folder "Window 1.1: Novel" {
+      [Pane 1.1.1 - Vim]
+    }
+    folder "Window 1.2: Notes" {
+      [Pane 1.2.1 - Vim]
+    }
+  }
+  node "Session 2: Coding" {
+    folder "Window 2.1: Back end" {
+      [Pane 2.1.1 - Vim]
+      [Pane 2.1.2 - htop]
+      [Pane 2.1.3 - zsh prompt]
+    }
+    folder "Window 2.2: Front end" {
+      [Pane 2.2.1 - Vim]
+      [Pane 2.2.2 - zsh prompt]
+    }
+    folder "Window 2.3: Docs" {
+      [Pane 2.3.1 - Vim]
+    }
+  }
+}
+
+@enduml
