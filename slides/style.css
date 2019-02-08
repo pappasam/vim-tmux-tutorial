@@ -9,7 +9,8 @@ pre.highlight.code {
   text-align: left;
 }
 
-li {
+ul, li {
+  margin-left: 75px;
   text-align: left;
   line-height: 200%;
 }
