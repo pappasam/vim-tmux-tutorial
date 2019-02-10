@@ -1,30 +1,33 @@
 @startuml
 
-top to bottom direction
+left to right direction
 
-package "Tmux Server" {
-  node "Session 1: Writing" {
-    folder "Window 1.1: Novel" {
-      [Pane 1.1.1 - Vim]
+frame "Tmux Server" #Grey {
+  frame "Session: Writing" as session_writing #White {
+    frame "Window: Novel" as window_novel #Green {
+      rectangle "Pane: Vim" as pane1
     }
-    folder "Window 1.2: Notes" {
-      [Pane 1.2.1 - Vim]
+    frame "Window: Notes" as window_notes #Green {
+      rectangle "Pane: Vim" as pane2
     }
   }
-  node "Session 2: Coding" {
-    folder "Window 2.1: Back end" {
-      [Pane 2.1.1 - Vim]
-      [Pane 2.1.2 - htop]
-      [Pane 2.1.3 - zsh prompt]
+  frame "Session: Coding" as session_coding #White {
+    frame "Window: DevOps" as window_backend #Green {
+      rectangle "Pane: Vim" as pane3
+      rectangle "Pane: htop" as pane4
     }
-    folder "Window 2.2: Front end" {
-      [Pane 2.2.1 - Vim]
-      [Pane 2.2.2 - zsh prompt]
+    frame "Window: Front end" as window_frontend #Green {
+      rectangle "Pane: Vim" as pane7
+      rectangle "Pane: yarn" as pane8
     }
-    folder "Window 2.3: Docs" {
-      [Pane 2.3.1 - Vim]
+    frame "Window: Docs" as window_docs #Green {
+      rectangle "Pane: Vim" as pane9
     }
   }
 }
+
+window_novel --[hidden]> window_notes
+window_backend --[hidden]> window_frontend
+window_frontend --[hidden]> window_docs
 
 @enduml

@@ -23,10 +23,15 @@ Thanks Def Method!!!
 
 ----
 
-Sam Roeca
-=========
+Sam Roeca:
+==========
 
 |sam|
+
+Kepler Group:
+=============
+
+|kepler_logo|
 
 .. note::
 
@@ -52,10 +57,57 @@ Vim NYC
 Learning Goals
 ==============
 
-* Quick tips
+* What is an IDE?
 * What is Tmux?
-* History of Tmux
 * Hands-on demo
+
+----
+
+Non-Unix IDE
+============
+
+|ide_traditional|
+
+.. note::
+
+    * Source code editor
+    * Build automation tools
+    * Debugger
+
+    Some:
+
+    * Code completion
+    * Compiler
+
+    Source: Architect (data science)
+
+----
+
+Unix IDE
+========
+
+|lego_caravan|
+
+.. note::
+
+    'Unix programmers can combine command-line POSIX tools into a complete development environment, capable of developing large programs such as the Linux kernel and its environment.[8] In this sense, the entire Unix system functions as an IDE' - Wikipedia
+
+----
+
+**How beginners may feel about this...**
+
+|legos_disorganized|
+
+----
+
+This talk...
+============
+
+|lego_hiker|
+
+.. note::
+
+    * Covers 1 lego piece
 
 ----
 
@@ -64,13 +116,21 @@ Quick Tips
 
 ----
 
+Type correctly
+==============
+
 |touch_typing|
+
+*Resource: "Typing Club"*
 
 .. note::
 
     * Learn to touch type
 
 ----
+
+Caps Lock ==> Control
+=====================
 
 |capslock_control|
 
@@ -80,6 +140,9 @@ Quick Tips
     * Or buy happy hacking keyboard :p
 
 ----
+
+Back Up / Version Dotfiles
+==========================
 
 |dotfiles|
 
@@ -99,14 +162,67 @@ Terminal Multiplexer
 
 **Multiplex**: Manifold; multiple (Webster 1913)
 
+**Multiplexer**: In electronics, a multiplexer (or mux) is a device that combines several analog or digital input signals and forwards them into a single output line (Wikipedia)
+
 ----
 
+Tmux Concepts
+=============
+
+|tmux_chart|
 
 ----
 
+Tmux Alternatives?
+==================
 
-Any questions?
-==============
+|wildflowers|
+
+*Terminator, GNU Screen, I3, Vim*
+
+.. note::
+
+    There are many programs with overlapping functionality to Tmux
+
+    Note: Tmux can be used with almost any tool, so "alternative" is a misnomer
+
+----
+
+Tmux + Alternatives
+===================
+
+|wildflower_bouquet|
+
+----
+
+Tmux Commands
+=============
+
+1. Tmux has "commands" (like Ex mode)
+2. "Commands" are mapped to "keybindings"
+3. The default "keybindings" are unpopular
+
+----
+
+Customization is Hard
+=====================
+
+|tailoring|
+
+*But necessary for Tmux*
+
+----
+
+System Setup
+============
+
+.. code:: bash
+
+    git clone https://github.com/pappasam/vim-tmux-tutorial
+    cd vim-tmux-tutorial
+    make
+
+Begin: interactive demo
 
 .. Begin: Image citations
 
@@ -131,4 +247,41 @@ Any questions?
 .. Cy21 [CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0) or GFDL (http://www.gnu.org/copyleft/fdl.html)], from Wikimedia Commons
 .. |touch_typing| image:: ./img/Typing-colour_for-finger-positions.svg
     :height: 500px
+
+.. |tmux_chart| image:: ./instance/tmux-nesting.svg
+    :height: 500px
+
+.. https://upload.wikimedia.org/wikipedia/commons/a/a7/Screenshot_of_Architect_%28integrated_development_environment_for_data_science%29.png
+.. Msteijaert [CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons
+.. |ide_traditional| image:: ./img/ide_datascience.png
+    :height: 500px
+
+.. https://pixabay.com/en/lego-play-build-module-colorful-1629073/
+.. |legos_disorganized| image::  ./img/lego-1629073_1920.jpg
+    :height: 500px
+
+.. https://pixabay.com/en/caravan-travel-trailer-lego-trailer-3818743/
+.. |lego_caravan| image:: ./img/lego_caravan.png
+    :height: 500px
+
+.. https://pixabay.com/en/hiker-walker-rambler-lego-walk-1984421/
+.. |lego_hiker| image:: ./img/hiker-1984421_1280.jpg
+    :height: 500px
+
+.. https://pixabay.com/en/tailoring-tailor-costume-apparel-2575930/
+.. |tailoring| image:: ./img/tailoring-2575930_1920.jpg
+    :height: 500px
+
+.. https://pbs.twimg.com/profile_images/2280848169/3swu6wfmqa78zugb07w3_400x400.png
+.. |kepler_logo| image:: ./img/kepler-logo.png
+    :height: 100px
+
+.. https://pixabay.com/en/wildflowers-meadow-grass-plants-3571119/
+.. |wildflowers| image:: ./img/wildflowers-3571119_1280.jpg
+    :height: 500px
+
+.. https://pixabay.com/en/wildflowers-bouquet-dreamy-flowers-3422413/
+.. |wildflower_bouquet| image:: ./img/wildflower_bouquet.jpg
+    :height: 500px
+
 .. End: Image citations

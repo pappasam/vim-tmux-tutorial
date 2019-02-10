@@ -25,4 +25,3 @@ help:  ## Prints this help menu
 instance/build: Dockerfile
 	docker image build --tag nyc-vim-learn-tmux:main .
 	@echo "Placeholder for Docker build step" > $@
-

@@ -4,7 +4,7 @@ Source code for my [Vim](https://www.vim.org/about.php) / [Tmux](http://man.open
 
 ## Setup
 
-This tutorial relies on Docker to create a cross-platform environment behaves like a basic version of Ubuntu 18.04 on most platforms.
+This tutorial relies on Docker to create a cross-platform Ubuntu 18.04 development environment.
 
 ### Dependencies
 
@@ -27,11 +27,23 @@ In this directory, run the following shell command:
 make clean
 ```
 
-## Resources
+## Slides
 
-### Slides
+I've provided a hovercraft presentation in the "slides/" subdirectory. Follow the instructions in the README to build.
 
-### Tmux shortcuts
+## Tmux Documentation
+
+Most information about Tmux can be found in its man page:
+
+```bash
+man tmux
+```
+
+Some less-comprehensive resources are found here:
+
+* [Cheat Sheet (List)](https://gist.github.com/MohamedAlaa/2961058)
+* [Cheat Sheet (Chart)](http://atkinsam.com/documents/tmux.pdf)
+* [Another Cheat Sheet](https://alvinalexander.com/linux-unix/tmux-cheat-sheet-commands-pdf)
 
 ## Written By
 
