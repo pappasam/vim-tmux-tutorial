@@ -17,6 +17,10 @@ build: presentation  ## Build the static presentation
 .PHONY: plantuml
 plantuml: $(PLANT_IMGS)  ## Build the plantuml diagrams
 
+# Static Presentation for distribution
+presentation.zip: presentation
+	zip -r $@ $<
+
 # Build the static presentation
 presentation: presentation.rst fonts $(PLANT_IMGS)
 	poetry run hovercraft $< $@
