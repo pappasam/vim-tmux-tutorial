@@ -29,7 +29,19 @@ make clean
 
 ## Slides
 
-I've provided a hovercraft presentation in the "slides/" subdirectory. Follow the instructions in the README to build.
+Download the slides [here](https://github.com/pappasam/vim-tmux-tutorial/releases/download/1.0.0/presentation.zip).
+
+To view them, run the following commands on the downloaded zip file:
+
+```bash
+wget https://github.com/pappasam/vim-tmux-tutorial/releases/download/1.0.0/presentation.zip
+unzip presentation.zip
+google-chrome presentation/index.html
+```
+
+### Source
+
+The source for the presentation can be found in the slides/ subdirectory
 
 ## Tmux Documentation
 
