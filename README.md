@@ -54,8 +54,7 @@ man tmux
 Some less-comprehensive resources are found here:
 
 * [Cheat Sheet (List)](https://gist.github.com/MohamedAlaa/2961058)
-* [Cheat Sheet (Chart)](http://atkinsam.com/documents/tmux.pdf)
-* [Another Cheat Sheet](https://alvinalexander.com/linux-unix/tmux-cheat-sheet-commands-pdf)
+* [Cheat Sheet (Graphic)](git@github.com:pappasam/vim-tmux-tutorial.git)
 
 ## Written By
 
