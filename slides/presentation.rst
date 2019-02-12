@@ -23,21 +23,27 @@ Thanks Def Method!!!
 
 ----
 
-Sam Roeca:
-==========
+Sam Roeca (Me)
+==============
 
 |sam|
 
-Kepler Group:
-=============
+.. note::
+
+    * Grew up in Honolulu, Hawaii
+    * Live in NYC
+    * Play squash, ski, read books, program
+
+----
+
+Kepler Group
+============
 
 |kepler_logo|
 
 .. note::
 
     * Head of Engineering, Kepler Group LLC
-    * Grew up in Honolulu, Hawaii
-    * Play squash, ski, read books, program
 
 ----
 
@@ -274,7 +280,7 @@ Begin: interactive demo
 
 .. https://pbs.twimg.com/profile_images/2280848169/3swu6wfmqa78zugb07w3_400x400.png
 .. |kepler_logo| image:: ./img/kepler-logo.png
-    :height: 100px
+    :height: 300px
 
 .. https://pixabay.com/en/wildflowers-meadow-grass-plants-3571119/
 .. |wildflowers| image:: ./img/wildflowers-3571119_1280.jpg
