@@ -13,7 +13,7 @@ build: instance/build
 
 .PHONY: clean
 clean: instance/build  ## Remove the Docker image
-	docker image rm nyc-vim-learn-tmux:main
+	-docker image rm nyc-vim-learn-tmux:main
 	@rm $^
 
 .PHONY: help
